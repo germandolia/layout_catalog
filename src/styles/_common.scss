@@ -13,7 +13,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, $card-size);
+  grid-template-columns: repeat(auto-fit, 200px);
   justify-content: center;
   gap: 50px 48px;
   margin: 50px auto;
