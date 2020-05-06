@@ -42,9 +42,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 60px; }
   .nav__list {
     display: -webkit-box;
@@ -85,6 +82,29 @@ body {
 
 .logo {
   height: 40px; }
+
+@media screen and (max-width: 900px) {
+  .header,
+  .nav {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 10px;
+    height: 260px; }
+    .header__list,
+    .nav__list {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: start;
+      height: 260px; }
+    .header__link,
+    .nav__link {
+      height: 30px;
+      line-height: 30px; } }
 
 .card {
   display: -webkit-box;
