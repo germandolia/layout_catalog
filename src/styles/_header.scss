@@ -63,18 +63,21 @@
 }
 
 @media screen and (max-width: 900px) {
-  .header {
+  .header,
+  .nav {
     justify-content: space-evenly;
     padding: 10px;
     height: 260px;
-  }
-  .nav {
-    @extend .header;
 
     &__list {
       flex-direction: column;
       align-items: start;
       height: 260px;
+    }
+
+    &__link {
+      height: 30px;
+      line-height: 30px;
     }
   }
 }
