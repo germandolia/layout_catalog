@@ -7,11 +7,11 @@
   background: #fff;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  margin: 0 24px 50px;
 
   &__picture {
     width: #{$card-size*0.8};
-    margin: 15px 5px 40px;
+    height: 134px;
+    margin: 15px auto 40px;
   }
 
   &__name {
